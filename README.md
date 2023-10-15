@@ -32,14 +32,14 @@ sudo apt install docker.io -y
 sudo apt install ansible -y
 ```
 ```bash
-sudo apt install python3
+sudo apt install python3 -y
 ```
 To verify the version of Python
 ```bash
 python3 --version
 ```
 ```bash
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 ```
 # Step 2: Create an ansible playbook file and give a name as Nginx-docker-container.yaml
 Mentioned the playbook file in another file as Demo.yaml
