@@ -19,3 +19,20 @@ sudo apt update
 ```
 ```bash
 sudo apt upgrade
+```
+```bash
+sudo apt install docker.io
+```
+```bash
+sudo apt install ansible
+```
+```bash
+sudo apt install python3
+```
+To verify the version of Python
+```bash
+python3 --version
+```
+```bash
+sudo apt install python3-pip
+```
