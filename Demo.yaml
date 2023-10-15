@@ -1,0 +1,33 @@
+---
+- name: Install Docker and Run Nginx Container
+  hosts: localhost
+  become: yes
+  vars_prompt:
+    - name: dockerhub_username
+      prompt: "Enter Docker Hub username"
+      private: no
+    - name: dockerhub_password
+      prompt: "Enter Docker Hub password"
+      private: yes
+  tasks:
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+        update_cache: yes
+
+    - name: Start the Docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Pull Nginx Docker image
+      command: docker pull nginx
+
+    - name: Docker Login
+      command: >
+        docker login -u {{ dockerhub_username }} -p {{ dockerhub_password }}
+
+    - name: Run Nginx Docker container
+      command: docker run -d -p 443:80 --name nginx-example-docker nginx
+      become: yes
