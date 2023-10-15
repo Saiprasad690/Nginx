@@ -62,7 +62,7 @@ Note: If Docker is already installed on your EC2 instance, the playbook will not
 
 # Step 3: Accessing the Nginx Container
 Once the playbook has been completed successfully, you can access the Nginx container via a web browser. Open a web browser and navigate to:
-Public IP of the instance and followed by port**:443**
+Public IP of the instance and followed by port:443
 ```bash
 For eg: 3.89.243.202:443
 ```
@@ -78,4 +78,4 @@ sudo docker stop nginx-example-docker
 ```bash
 sudo docker rm nginx-example-docker
 ```
-That's it! You've successfully set up a Nginx Docker container on your Ubuntu 22.04 EC2 instance using the Ansible playbook.
+That's it! Successfully implemented set up a Nginx Docker container on your Ubuntu 22.04 EC2 instance using the Ansible playbook.
