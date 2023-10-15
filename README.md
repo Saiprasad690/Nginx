@@ -1,5 +1,7 @@
 # Setting Up Nginx Docker Container on an Ubuntu 22.04 EC2 Instance using Ansible playbook
 This documentation provides comprehensive instructions for setting up an Nginx Docker container on an Ubuntu 22.04 EC2 instance using Ansible
+# What is the Ansible playbook?
+An Ansible playbook is an organized unit of scripts that defines the tasks involved in managing a system configuration. Playbooks are like step-by-step instructions for automating tasks on multiple servers. They make it easy to set up, configure, and manage servers without manual work
 # Prerequisites
 Before you begin, make sure you have the following:
 
