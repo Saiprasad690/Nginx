@@ -44,7 +44,7 @@ Execute the Ansible Playbook:
 
 Run the Ansible playbook using the following command:
 ```bash
-ansible-playbook nginx-docker-container.yaml
+ansible-playbook Demo.yaml
 ```
 This command will run the playbook, which does the following:
 
