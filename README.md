@@ -16,3 +16,5 @@ Open your terminal or SSH into your EC2 instance if you prefer to work directly.
 git clone https://github.com/yourusername/ansible-nginx-docker.git
 ```bash
 sudo apt update 
+```bash
+sudo apt upgrade
