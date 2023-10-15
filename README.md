@@ -15,3 +15,5 @@ Clone the Repository:
 Open your terminal or SSH into your EC2 instance if you prefer to work directly. Clone the Ansible playbook repository to your machine or instance.
 git clone https://github.com/yourusername/ansible-nginx-docker.git
 ''' sudo apt update '''
+```bash
+echo "Hello, World!"
