@@ -64,9 +64,9 @@ Note: If Docker is already installed on your EC2 instance, the playbook will not
 Once the playbook has been completed successfully, you can access the Nginx container via a web browser. Open a web browser and navigate to:
 Public IP of the instance and followed by port:443
 ```bash
-For eg: 3.80.40.52:443
+For eg: 3.89.243.202:443
 ```
-Replace your_ec2_instance_ip with the IP address of your EC2 instance. You should see the default Nginx welcome page.
+**Replace your_ec2_instance_ip with the IP address of your EC2 instance. You should see the default Nginx welcome page.**
 # Step 4: Removing the Nginx Container
 To view or remove the Nginx container, use the following command on your EC2 instance:
 ```bash
