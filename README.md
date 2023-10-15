@@ -43,10 +43,8 @@ python3 --version
 ```bash
 sudo apt install python3-pip -y
 ```
-# Step 2: Create an ansible playbook file and give a name as Nginx-docker-container.yaml
-Mentioned the Ansible playbook file in another file as Nginx-docker-container.yaml
 
-# Step 3: Run the Ansible Playbook
+# Step 2: Run the Ansible Playbook
 Execute the Ansible Playbook:
 
 Run the Ansible playbook using the following command:
@@ -59,14 +57,14 @@ Installs Docker on the EC2 instance.
 Performs a Docker login, prompting you for your Docker Hub credentials.
 Spins up an Nginx container with port 443 open.
 Note: If Docker is already installed on your EC2 instance, the playbook will not reinstall it.
-# Step 4: Accessing the Nginx Container
+# Step 3: Accessing the Nginx Container
 Once the playbook has been completed successfully, you can access the Nginx container via a web browser. Open a web browser and navigate to:
 Public IP of the instance and followed by port:443
 ```bash
 For eg: 3.80.40.52:443
 ```
 Replace your_ec2_instance_ip with the IP address of your EC2 instance. You should see the default Nginx welcome page.
-# Step 5: Removing the Nginx Container
+# Step 4: Removing the Nginx Container
 To view and remove the Nginx container, use the following command on your EC2 instance:
 ```bash
 sudo docker ps -a
