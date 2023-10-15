@@ -26,7 +26,7 @@ sudo apt update
 ```bash
 sudo apt upgrade -y
 ```
-And wait for upgradation and Install Docker and Ansible by following below commands
+Wait for the upgradation and Install Docker and Ansible by following the below commands
 ```bash
 sudo apt install docker.io -y
 ```
@@ -57,6 +57,11 @@ Installs Docker on the EC2 instance.
 Performs a Docker login, prompting you for your Docker Hub credentials.
 Spins up an Nginx container with port 443 open.
 Note: If Docker is already installed on your EC2 instance, the playbook will not reinstall it.
+Enter your Docker hub username: "XXXXX"
+Enter your Docker hub password: "XXXXX"
+
+**Note: Dockerhub should have an Nginx image**
+
 # Step 3: Accessing the Nginx Container
 Once the playbook has been completed successfully, you can access the Nginx container via a web browser. Open a web browser and navigate to:
 Public IP of the instance and followed by port:443
