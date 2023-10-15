@@ -17,7 +17,6 @@ git clone https://github.com/yourusername/ansible-nginx-docker.git
 ```bash
 sudo apt update
 sudo apt upgrade
-```bash
 sudo apt install docker.io
 ```
 ```bash
