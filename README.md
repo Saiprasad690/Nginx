@@ -69,7 +69,11 @@ Replace your_ec2_instance_ip with the IP address of your EC2 instance. You shoul
 To view and remove the Nginx container, use the following command on your EC2 instance:
 ```bash
 sudo docker ps -a
+```
+```bash
 docker stop nginx-example-docker
+```
+```bash
 docker rm nginx-example-docker
 ```
-That's it! You've successfully set up an Nginx Docker container on your Ubuntu 22.04 EC2 instance using the Ansible playbook.
+That's it! You've successfully set up a Nginx Docker container on your Ubuntu 22.04 EC2 instance using the Ansible playbook.
