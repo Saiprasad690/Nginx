@@ -22,13 +22,14 @@ In order to update and install required packages. Follow the commands below
 sudo apt update
 ```
 ```bash
-sudo apt upgrade
+sudo apt upgrade -y
+```
+And wait for upgradation
+```bash
+sudo apt install docker.io -y
 ```
 ```bash
-sudo apt install docker.io
-```
-```bash
-sudo apt install ansible
+sudo apt install ansible -y
 ```
 ```bash
 sudo apt install python3
