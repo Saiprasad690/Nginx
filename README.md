@@ -58,10 +58,6 @@ Performs a Docker login, prompting you for your Docker Hub credentials.
 Spins up an Nginx container with port 443 open.
 Note: If Docker is already installed on your EC2 instance, the playbook will not reinstall it.
 
-Enter your Docker hub username: "XXXXX"
-
-Enter your Docker hub password: "XXXXX"
-
 **Note: Dockerhub should have an Nginx image**
 
 # Step 3: Accessing the Nginx Container
