@@ -68,7 +68,7 @@ For eg: 3.80.40.52:443
 ```
 Replace your_ec2_instance_ip with the IP address of your EC2 instance. You should see the default Nginx welcome page.
 # Step 4: Removing the Nginx Container
-To view and remove the Nginx container, use the following command on your EC2 instance:
+To view or remove the Nginx container, use the following command on your EC2 instance:
 ```bash
 sudo docker ps -a
 ```
