@@ -62,7 +62,7 @@ Note: If Docker is already installed on your EC2 instance, the playbook will not
 
 # Step 3: Accessing the Nginx Container
 Once the playbook has been completed successfully, you can access the Nginx container via a web browser. Open a web browser and navigate to:
-Public IP of the instance and followed by port:443
+Public IP of the instance and followed by port**:443**
 ```bash
 For eg: 3.89.243.202:443
 ```
