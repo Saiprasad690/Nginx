@@ -37,7 +37,7 @@ python3 --version
 sudo apt install python3-pip
 ```
 # Step 2: Create an ansible playbook file and give a name as Nginx-docker-container.yaml
-Mentioned the playbook in another folder
+Mentioned the playbook file in another folder
 # Step 3: Run the Ansible Playbook
 Execute the Ansible Playbook:
 
@@ -64,4 +64,4 @@ To remove the Nginx container, use the following command on your EC2 instance:
 docker stop nginx-example-docker
 docker rm nginx-example-docker
 ```
-That's it! You've successfully set up a Nginx Docker container on your Ubuntu 22.04 EC2 instance using Ansible.
+That's it! You've successfully set up a Nginx Docker container on your Ubuntu 22.04 EC2 instance using Ansible playbook
