@@ -26,7 +26,7 @@ sudo apt update
 ```bash
 sudo apt upgrade -y
 ```
-And wait for upgradation
+And wait for upgradation and Install Docker and Ansible by following below commands
 ```bash
 sudo apt install docker.io -y
 ```
