@@ -37,3 +37,11 @@ python3 --version
 sudo apt install python3-pip
 ```
 # Step 2: Create an ansible playbook file and give a name as Nginx-docker-container.yaml
+Mentioned the playbook in other folder
+# Step 3: Run the Ansible Playbook
+Execute the Ansible Playbook:
+
+Run the Ansible playbook using the following command:
+```bash
+ansible-playbook nginx-docker-container.yaml
+```
