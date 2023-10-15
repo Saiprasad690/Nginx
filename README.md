@@ -3,5 +3,5 @@ This documentation provides comprehensive instructions for setting up an Nginx D
 # Prerequisites
 Before you begin, make sure you have the following:
 
-An AWS EC2 instance running Ubuntu 22.04.
-SSH access to the EC2 instance.
+• An AWS EC2 instance running Ubuntu 22.04.
+• SSH access to the EC2 instance.
